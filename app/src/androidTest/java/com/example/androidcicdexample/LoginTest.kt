@@ -27,7 +27,7 @@ class LoginTest {
 
     @Test
     fun loginTest() {
-        // added fake comment
+
         Espresso.onView(ViewMatchers.withId(R.id.edt_email_main_activity))
             .check(ViewAssertions.matches(ViewMatchers.isDisplayed())).perform(
                 ViewActions.typeText("test@gmail.com"),
