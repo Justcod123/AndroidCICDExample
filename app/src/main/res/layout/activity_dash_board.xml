@@ -7,6 +7,7 @@
     tools:context=".DashBoardActivity">
 
     <TextView
+        android:id="@+id/txt_login_success_dash_board_activity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login success"
