@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:text="Login success"
         android:textColor="@android:color/background_dark"
-        android:textSize="36sp"
+        android:textSize="40sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
