@@ -32,7 +32,7 @@ class LoginSuccessTest {
     }
 
     @Test
-    fun loginTest() {
+    fun successTest() {
 
         Espresso.onView(ViewMatchers.withId(R.id.txt_login_success_dash_board_activity))
             .check(ViewAssertions.matches(ViewMatchers.isDisplayed()))
