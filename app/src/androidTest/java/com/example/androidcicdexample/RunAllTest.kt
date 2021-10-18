@@ -7,5 +7,5 @@ import org.junit.runners.Suite
  * Created by Abhin.
  */
 @RunWith(Suite::class)
-@Suite.SuiteClasses(LoginTest::class, LoginSuccessTest::class)
+@Suite.SuiteClasses(LoginSuccessTest::class,LoginTest::class)
 class RunAllTest
