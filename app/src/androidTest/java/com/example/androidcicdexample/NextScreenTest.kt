@@ -24,7 +24,7 @@ class NextScreenTest {
     }
 
     @Test
-    fun loginTest() {
+    fun nextScreenTest() {
         Espresso.onView(ViewMatchers.withId(R.id.btn_next_screen_activity))
             .check(ViewAssertions.matches(ViewMatchers.isDisplayed())).perform(
                 click()
