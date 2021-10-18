@@ -14,5 +14,10 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, DashBoardActivity::class.java))
             finish()
         }
+
+        btn_next_screen_activity.setOnClickListener {
+            startActivity(Intent(this, NextScreenActivity::class.java))
+            finish()
+        }
     }
 }
